@@ -3,4 +3,8 @@ class LtiController < ApplicationController
 
   def launch
   end
+
+  def gist
+    @path = params['path']
+  end
 end
